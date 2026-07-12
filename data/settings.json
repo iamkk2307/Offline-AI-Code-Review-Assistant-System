@@ -1,0 +1,10 @@
+{
+  "theme": "dark",
+  "language": "en",
+  "report_output_dir": "",
+  "auto_save": true,
+  "analysis_on_open": false,
+  "max_workers": 4,
+  "show_info_issues": true,
+  "default_report_format": "html"
+}

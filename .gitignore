@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyc
+
+# Node / Electron
+node_modules/
+dist/
+release/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Client build
+client/dist/
+client/node_modules/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML artifacts (exclude from git — too large; use LFS or regenerate)
+ml/models/*.joblib
+ml/models/*.pkl
+!ml/models/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Reports output
+reports/output/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

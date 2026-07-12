@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-07-12T13:39:38.385868",
+  "training_samples": 10000,
+  "feature_names": [
+    "loc",
+    "sloc",
+    "blank_lines",
+    "comment_lines",
+    "comment_ratio",
+    "function_count",
+    "class_count",
+    "method_count",
+    "import_count",
+    "global_variables",
+    "constants",
+    "parameter_count",
+    "return_statements",
+    "exception_handling",
+    "loop_count",
+    "nested_loops",
+    "conditional_count",
+    "recursion_count",
+    "switch_statements",
+    "cyclomatic_complexity",
+    "halstead_length",
+    "halstead_volume",
+    "halstead_difficulty",
+    "halstead_effort",
+    "maintainability_index",
+    "max_nesting_depth",
+    "avg_function_length",
+    "avg_class_size",
+    "avg_identifier_length",
+    "naming_violations",
+    "duplicate_lines",
+    "duplicate_ratio",
+    "dead_code_lines",
+    "todo_count",
+    "fixme_count",
+    "long_methods",
+    "large_classes",
+    "long_parameter_lists",
+    "magic_numbers",
+    "hardcoded_credentials",
+    "sql_queries",
+    "shell_executions",
+    "eval_usage",
+    "file_operations",
+    "network_operations",
+    "memory_allocations",
+    "nested_iterations",
+    "redundant_calculations",
+    "object_creations",
+    "collection_usage",
+    "expensive_operations"
+  ],
+  "feature_count": 51,
+  "models": {
+    "bug_detector": {
+      "algorithm": "RandomForestClassifier",
+      "type": "classification"
+    },
+    "security_risk": {
+      "algorithm": "XGBClassifier",
+      "type": "classification"
+    },
+    "severity_classifier": {
+      "algorithm": "SVC",
+      "type": "classification"
+    },
+    "quality_scorer": {
+      "algorithm": "GradientBoostingRegressor",
+      "type": "regression"
+    },
+    "maintainability_scorer": {
+      "algorithm": "RandomForestRegressor",
+      "type": "regression"
+    },
+    "readability_scorer": {
+      "algorithm": "GradientBoostingRegressor",
+      "type": "regression"
+    }
+  },
+  "training_time_seconds": 17.79
+}
