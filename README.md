@@ -6,7 +6,7 @@
 
 ## 🚀 Key Features
 
-* **100% Secure & Offline**: No cloud APIs (no OpenAI, Claude, or Gemini calls). No network packets leave your computer.
+* ***100% Secure & Offline***: No cloud APIs (no OpenAI, Claude, or Gemini calls). No network packets leave your computer.
 * **Premium IDE Workspace**: Designed with a visual layout containing a collapsible sidebar, command palette modal search (`Ctrl+P`), and bottom system health panel.
 * **Circular Health Gauge Dashboard**: Displays overall code health out of 100 with category metrics (Security, Quality, Maintainability, Performance).
 * **SonarQube-Inspired Code Guide**: Redesigned right-pane code guides showing:
